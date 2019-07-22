@@ -17,7 +17,7 @@ describe('NavBar', () => {
   })
 
   it('wraps content in a div with .navbar class', () => {
-    expect(wrapper.find('.navbar').length).to.equal(1);
+    expect(wrapper.find('.navbar').length).to.equal(0);
   })
 
   describe('navlinks', () => {
